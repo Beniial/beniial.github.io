@@ -1,0 +1,48 @@
+body {
+    background: repeating-linear-gradient(45deg,#222222, #222222 10px,#000011 10px, #111111 20px);
+    background-attachment:scroll;
+    animation: scrollBG 4s linear infinite;
+    min-height: 90vh;
+}
+@keyframes scrollBG
+{
+  0% {top:0;}
+  100% {top:-200%;}
+  
+}
+@font-face {
+    font-family: MarioMakerFont;
+    src: url(assets/fonts/MARIOMAKER.otf);
+}
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: MarioMakerFont;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: "Franklin Gothic Medium";
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-family: "Franklin Gothic Medium";
+    color: whitesmoke;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rebeccapurple;
+}
